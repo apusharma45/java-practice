@@ -24,8 +24,4 @@ jobs:
 
       # 3. Compile all Java files in src/
       - name: Compile Java
-        run: javac src/**/*.java
-
-      # 4. (Optional) Run main class
-      - name: Run main class
-        run: java -cp src MainClassName
+        run: javac *.java
